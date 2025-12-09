@@ -1,0 +1,75 @@
+    body {
+      font-family: "Parisienne", cursive;
+      background: #222;
+      color: #fff;
+      text-align: left;
+      padding-top: 10px;
+}
+
+.background-image{
+    width : center;
+    height : 100vh;
+ background-image: url('elements/slot_machine\ _1.png');
+background-position: center top;
+  background-repeat: no-repeat;
+  background-color: #111;
+}
+
+    
+
+    .slot-machine-reels {
+        transform: translate(15px, -375px);
+        top: 200px;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+
+    .reel {
+
+      width: 80px;
+      height: 80px;
+      background: #111;
+      border: 3px solid #444;
+      border-radius: 10px;
+      font-size: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 10px;
+    }
+
+   #rest-button {
+    
+    left: 38%;
+    top: -180px;
+    position: relative;
+  width: 450px;
+  cursor: pointer;
+  user-select: none;
+}
+
+#page {
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: background-image 0ms;
+}
+
+.bg1 {
+  background-image: url("elements/slot_machine_1.png");
+}
+
+.bg2 {
+  background-image: url("elements/slot_machine_2.png");
+}
+
+p{
+    margin-bottom: 2px;
+}
+
+.score-right{
+    text-align: right;
+    transform: translate(0px,-500px);
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 20px;
+}
