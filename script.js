@@ -136,7 +136,7 @@ async function spinAnimation() {
 
 img.onclick = function () {
 
-  img.src = "elements/Button_pressed.png";
+  img.src = "elements/button_pressed.png";
 
   setTimeout(() => {
     if (img.matches(":hover")) {
